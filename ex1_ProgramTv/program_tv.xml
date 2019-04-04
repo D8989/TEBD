@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tv_programing>
+	
+	<weekday day="monday">
+		<tv_show>
+			<name>jornal</name>
+			<time>08:00</time>
+			<duration>2</duration>
+		</tv_show>
+		<tv_show>
+			<name>cartoon</name>
+			<time>10:00</time>
+			<duration>3</duration>
+		</tv_show>
+		<tv_show>
+			<name>novel</name>
+			<time>13:00</time>
+			<duration>10</duration>
+		</tv_show>
+	</weekday>
+	
+	<weekday day="tuersday">
+		<tv_show>
+			<name>jornal</name>
+			<time>08:00</time>
+			<duration>2</duration>
+		</tv_show>
+		<tv_show>
+			<name>cartoon</name>
+			<time>10:00</time>
+			<duration>3</duration>
+		</tv_show>
+		<tv_show>
+			<name>novel</name>
+			<time>13:00</time>
+			<duration>10</duration>
+		</tv_show>
+	</weekday>
+	
+	<weekday day="wensday">
+		<tv_show>
+			<name>jornal</name>
+			<time>08:00</time>
+			<duration>2</duration>
+		</tv_show>
+		<tv_show>
+			<name>cartoon</name>
+			<time>10:00</time>
+			<duration>3</duration>
+		</tv_show>
+		<tv_show>
+			<name>novel</name>
+			<time>13:00</time>
+			<duration>10</duration>
+		</tv_show>
+	</weekday>
+	
+	<weekday day="thursday">
+		<tv_show>
+			<name>jornal</name>
+			<time>08:00</time>
+			<duration>2</duration>
+		</tv_show>
+		<tv_show>
+			<name>cartoon</name>
+			<time>10:00</time>
+			<duration>3</duration>
+		</tv_show>
+		<tv_show>
+			<name>novel</name>
+			<time>13:00</time>
+			<duration>10</duration>
+		</tv_show>
+	</weekday>
+	
+	<weekday day="friday">
+		<tv_show>
+			<name>jornal</name>
+			<time>08:00</time>
+			<duration>2</duration>
+		</tv_show>
+		<tv_show>
+			<name>cartoon</name>
+			<time>10:00</time>
+			<duration>3</duration>
+		</tv_show>
+		<tv_show>
+			<name>novel</name>
+			<time>13:00</time>
+			<duration>10</duration>
+		</tv_show>
+	</weekday>
+
+</tv_programing>
