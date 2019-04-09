@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<historicoEscolar>
+	<matricula>7896</matricula>
+	<nomeAluno>Alan</nomeAluno>
+	<cpf>456</cpf>
+	<academico>
+		<periodo>
+			<cr>5.7</cr>
+			<numero>6</numero>
+			<disciplinas>
+				<disciplina>
+					<nome>Algebra</nome>
+					<codDisciplina>AB57</codDisciplina>
+					<nota>9.5</nota>
+					<situacao>aprovado</situacao>
+				</disciplina>
+				
+				<disciplina>
+					<nome>Computação 2</nome>
+					<codDisciplina>AB79</codDisciplina>
+					<nota>6.5</nota>
+					<situacao>aprovado</situacao>
+				</disciplina>
+			</disciplinas>
+		</periodo>
+	</academico>
+</historicoEscolar>			

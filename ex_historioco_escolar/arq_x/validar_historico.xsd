@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="historicoEscolar">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="matricula" type="xs:string"/>
+			<xs:element name="nomeAluno" type="xs:string"/>
+			<xs:element name="cpf" type="xs:string"/>
+			<xs:element name="academico">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="periodo">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="cr" type="xs:float"/>
+									<xs:element name="numero" type="xs:int"/>
+									<xs:element name="disciplinas">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="disciplina" maxOccurs="unbounded">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element name="nome" type="xs:string"/>
+															<xs:element name="codDisciplina" type="xs:string"/>
+															<xs:element name="nota" type="xs:float"/>
+															<xs:element name="situacao" type="xs:string"/>
+														</xs:sequence>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema> 

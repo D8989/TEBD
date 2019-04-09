@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metodo>
+	<nomeMetodo>getHistorico</nomeMetodo>
+	<parametros>
+		<parametro>
+			<nomeParametro>matricula</nomeParametro>
+			<tipo>string</tipo>
+		</parametro>
+	</parametros>
+</metodo>

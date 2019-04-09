@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="metodo">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="nomeMetodo" type="xs:string"/>
+			
+			<xs:element name="parametros">
+				<xs:complexType>
+					<xs:sequence>
+						
+						<xs:element name="parametro" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="nomeParametro" type="xs:string"/>
+									<xs:element name="tipo" type="xs:string"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>
